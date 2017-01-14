@@ -75,4 +75,12 @@
             android:text="Do." />
 
     </LinearLayout>
+    <Button
+        android:id="@+id/button_site"
+        android:theme="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="visit us"/>
+
 </LinearLayout>
