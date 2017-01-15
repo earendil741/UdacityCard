@@ -16,5 +16,13 @@
         <item name="android:textSize">20sp</item>
     </style>
 
+    <!--TextView Style-->
+
+    <style name="LittleTextView">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 
 </resources>

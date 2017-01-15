@@ -22,7 +22,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Udacity"
+        android:text="@string/society"
         android:textSize="56sp"
         android:textColor="@color/colorPrimaryDark"
         android:textAllCaps="true"
@@ -32,7 +32,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Jobs of Tomorrow Start Here"
+        android:text="@string/motto"
         android:textColor="@color/colorPrimary"
         android:textSize="24dp"
         android:layout_gravity="center_horizontal"
@@ -61,29 +61,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="34sp"
-            android:textColor="@color/colorPrimaryDark"
-            android:textStyle="bold"
+            android:theme="@style/LittleTextView"
             android:textAlignment="center"
-            android:text="Learn."/>
+            android:text="@string/little_box_1"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="34sp"
-            android:textColor="@color/colorPrimaryDark"
-            android:textStyle="bold"
+            android:theme="@style/LittleTextView"
             android:textAlignment="center"
-            android:text="Think."/>
+            android:text="@string/little_box_2"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="34sp"
-            android:textColor="@color/colorPrimaryDark"
-            android:textStyle="bold"
+            android:theme="@style/LittleTextView"
             android:textAlignment="center"
-            android:text="Do." />
+            android:text="@string/little_box_3" />
 
     </LinearLayout>
     <Button
@@ -92,7 +86,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="visit us"/>
+        android:text="@string/button"/>
 
 </LinearLayout>
 </ScrollView>

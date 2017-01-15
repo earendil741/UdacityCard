@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Udacity Card</string>
+    <string name="society">Udacity</string>
+    <string name="motto">Jobs of Tomorrow Start Here</string>
+    <string name="little_box_1">Learn.</string>
+    <string name="little_box_2">Think.</string>
+    <string name="little_box_3">Do.</string>
+    <string name="button">Visit Us</string>
 </resources>
